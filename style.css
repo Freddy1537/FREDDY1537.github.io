@@ -1,0 +1,22 @@
+#banner-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(./IMG/ba1.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.border-bottom-dotted {
+    border-bottom-style: dotted !important;
+}
+
+@media (max-width: 575.90px) {
+    .container-logo {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+footer {
+    background-image: linear-gradient(to bottom rigth, rgba(28, 54, 70, 255), rgba(30, 80, 115, 255));
+}
